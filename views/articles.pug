@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= 'Articles for Interest'
+
+  each article in articles
+      div(class='article')
+
+        h2  #{article.title}
+        p  #{article.details}
+    
+    
+  a(href="/")
+      button(type="button") Home
+  

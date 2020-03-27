@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= 'Contact List'
+  
+
+    table(style='width:100%', border='1')
+        tr
+        th Id
+        th Name
+        th Telephone
+        
+        each user in users
+            tr
+                td #{user.id}
+                td #{user.name}
+                td #{user.email}
+         
+    a(class='button', href='/') Home
+
+  
