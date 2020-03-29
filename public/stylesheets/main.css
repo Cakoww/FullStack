@@ -1,8 +1,17 @@
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background-color: #00ff21;
+    /*background-color: #d2f5d7;*/
+    background-image: url('/images/background.jpg');
+    background-repeat: repeat;
     align-items: center;
+}
+
+.main-container {
+    background-color: #559d5f;
+    padding-top: inherit;
+    padding-bottom: 15%;
+    border-radius: 8px;
 }
 
 table {
@@ -14,12 +23,20 @@ h1{
     align-content:center;
 }
 
-.container {
-    background-color: #cdd8b6;
-    text-align: center;
-    border-radius: 5%;
+.daily-message{
+   margin-bottom: 30px;
+}
+
+.photo-field .row .col-lg-4{
+    align-content: center;
 }
 
 .article {
     background-color: aliceblue;
 }
+
+.card-article{
+    margin-bottom: 10px;
+}
+
+

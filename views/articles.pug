@@ -1,15 +1,12 @@
 extends layout
 
 block content
-  h1= 'Articles for Interest'
-
-  each article in articles
-      div(class='article')
-
-        h2  #{article.title}
-        p  #{article.details}
+    .col-sm-12
+      each article in articles
+        .card.card-article
+          .card-body
+            h5.card-title #{article.title}
+            p.card-text #{article.details}
+            a.btn.btn-primary(href='#') Go somewhere
+        
     
-    
-  a(href="/")
-      button(type="button") Home
-  

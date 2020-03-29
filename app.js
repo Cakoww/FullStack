@@ -26,6 +26,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'node_modules/bootstrap/')));
 
 app.use('/', routes);
 app.use('/users', users);
@@ -66,8 +67,8 @@ app.set('port', process.env.PORT || 3000);
 
 var server = app.listen(app.get('port'), function () {
     try {
-        debug('Express server listening on port ' + server.address().port);
+        console.log('Express server listening on port ' + server.address().port);
     } catch (error) {
-        debug('Error ' + error);
+        console.log('Error ' + error);
     }
 });
