@@ -30,13 +30,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <None Include="dailysloth - Web Deploy.pubxml" />
     <Content Include="database\database.js">
       <SubType>Code</SubType>
     </Content>
-    <None Include="greens-app - Web Deploy.pubxml" />
     <Content Include="persistence\articlePersistence.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="public\images\000065470001.jpg" />
+    <Content Include="public\images\background.jpg" />
+    <Content Include="public\images\background_bw.jpg" />
+    <Content Include="public\images\jumbotron.jpg" />
+    <Content Include="public\images\rolling.jpg" />
+    <Content Include="public\images\Sloth.jpg" />
     <Content Include="routes\articles.js">
       <SubType>Code</SubType>
     </Content>

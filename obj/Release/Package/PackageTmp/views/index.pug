@@ -1,24 +1,93 @@
 extends layout
 
 block content
+    .container
+        .jumbotron.custom-jumbotron
+            h1.display-4 The Tao of Slothness Explained, Coming soon!
+            p.lead
+            | From the more influentional Sloth in the whole world, how to be a successful sloth with the pro, coming soon.
+            hr.my-4
+            p
+            | Made with love, from earthlings to earthlings.
+            p.lead
+            a.btn.btn-warning.btn-lg(href='/articles' role='button') Order now!
+    
+    .container.daily-message
+        .card
+          .card-header
+            | Message of the day:
+          .card-body
+            blockquote.blockquote.mb-0
+              p
+                | Mr. Slothson tells in his book, how to inspire and be inpired by our daily slothness, this is a master piece.
+              footer.blockquote-footer
+                | Debra Simple from 
+                cite(title='Source Title') The Daily Deboist 
+        |
+    .container.daily-message
+        .card-deck
+          .card
+            img.card-img-top(src='/images/rolling.jpg' alt='Card image cap')
+            .card-body
+              h5.card-title S.L.O.T.H. Method
+              p.card-text
+                | How to be successful with little to none effort.
+              p.card-text
+                small.text-muted Last updated 3 mins ago
+          .card
+            img.card-img-top(src='/images/sloth.jpg' alt='Card image cap')
+            .card-body
+              h5.card-title Mr. Slothson
+              p.card-text 
+                | A stress free business man, Mr. Slothson is the most successful Sloth in the Universe.
+              p.card-text
+                small.text-muted Last updated 3 mins ago
+          .card
+            img.card-img-top(src='/images/jumbotron.jpg' alt='Card image cap')
+            .card-body
+              h5.card-title Tools to be successful
+              p.card-text
+                | Sharp your tools to be successful with Mr. Slothson.
+                
+              p.card-text
+                small.text-muted Last updated 3 mins ago
 
-      h1= title
-      
-      p The name and concept of "yellow pages" came about in 1883, when a printer in Cheyenne, Wyoming, working on a regular telephone directory ran out of white paper and used yellow paper instead. In 1886, Reuben H. Donnelley created the first official Yellow Pages directory.
+    .container.photo-field
+        .card
+          .card-header
+            | Playing non stop in my place
+          .card-body
+            h5.card-title
+            p.card-text 
+                iframe(width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/224789187&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true')
+            
 
-      p Today, the expression yellow pages is used globally, in both English-speaking and non-English speaking countries. In the United States, it refers to the category, while in some other countries it is a registered name and therefore a proper noun. The term Yellow Pages is not a registered name within the United States and is freely used by many companies. Telephone directories using the official Internet address "yellowpages.xx" exist in 75 different countries. They are edited by many different phone companies and directory publishers, mostly independent from each other.
 
-      p A particular yellow pages is a print directory which provides an alphabetical listing of businesses within a specific geographical area (e.g. the Tampa Bay area, which are segregated under headings for similar types of businesses, such as plumbers). Traditionally these directories have been published by the local phone company, but there are numerous independent directory publishers. Some yellow pages publishers focus on a particular demographic (e.g. Christian yellow pages or business pages).
+        .card-deck
+            .card.text-white.bg-danger.mb-3(style='max-width: 18rem;')
+              .card-header Header
+              .card-body
+                h5.card-title Success card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
 
-      p Yellow pages directories are usually published annually, and distributed for free to all residences and businesses within a given coverage area. The majority of listings are plain and in small black text. The yellow pages publishers generate profit by selling advertising space or listings under each heading. Advertising may be sold by a direct sales force or by approved agencies (CMR's). Available advertising space varies among publishers and ranges from bold names up to four color twin page ads ("double trucks").In the United States, the predominant yellow pages are DEX One's DEX, the AT&T Real Yellow Pages, Yellowbook, and the Verizon Superpages.
+            .card.text-white.mb-3(style='max-width: 18rem; background-color:pink')
+              .card-header Header
+              .card-body
+                h5.card-title Success card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
 
-      p Yellowbook Logo used in the United States Business listings used for publication are obtained by several methods. Local phone companies that publish yellow pages directories rely on their own customer lists and include business listings that are provided by incumbent local exchange carriers (ILECs). Business owners that utilize phone services other than the local phone company (typically a Bell Company) should make certain that their information has been sent to the publisher for printing in upcoming directories. Advertising in yellow pages directories requires payment in full prior to printing or may be billed monthly over the life of the contract, which is usually 12 months. Typically, a sales representative will assist the customer in creating their ad design and provides a Proof Copy for review and approval. Advertisers should be aware that many contracts have automatic renewal clauses and require action on the part of the advertiser to end future billing.
+            .card.text-white.bg-primary.mb-3(style='max-width: 18rem;')
+              .card-header Header
+              .card-body
+                h5.card-title Success card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
 
-      p Yellow pages print usage is reported to be declining with both advertisers and shoppers increasingly turning to Internet search engines and online directories. According to a study by Knowledge Networks/SRI, in 2007, print yellow pages were referenced 13.4 billion times, while Internet yellow pages references increased to 3.8 billion, up from 2006's 3.3 billion online searches. As a result, most yellow pages publishers have attempted to create online versions of their print directories. These online versions are referred to as IYP or Internet yellow pages. Independent ad agencies or Internet marketing consultants can assist business owners in determining sound opportunities for yellow pages advertising and provide objective information on usage, possession and preferences.Archived yellow pages and telephone directories are important tools in local historical research and trademark litigation
-      |
-      |
-      |
-      a(href="/users")
-         button(type="button") Contacts
-      a(href="/articles")
-         button(type="button") Articles      
+
+    
+
+
+
+

@@ -2,8 +2,22 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='./node_modules/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='dist/css/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/main.css')
+    
 body
-    div(class='container')
-        block content
+    
+    .container.main-container
+      .container
+        nav(aria-label='breadcrumb')
+          ol.breadcrumb
+            li.breadcrumb-item
+              a(href='/') Home
+            li.breadcrumb-item
+              a(href='/articles') Artigos
+            li.breadcrumb-item.active(aria-current='page') Data
+
+        
+
+      block content
+

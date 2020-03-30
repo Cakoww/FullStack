@@ -39,4 +39,9 @@ h1{
     margin-bottom: 10px;
 }
 
+.custom-jumbotron {
+    background-image: url('/images/background_bw.jpg');
+    background-size: cover;
+    color: aliceblue;
+}
 

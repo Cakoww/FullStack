@@ -2,7 +2,7 @@ extends layout
 
 block content
     .container
-        .jumbotron
+        .jumbotron.custom-jumbotron
             h1.display-4 The Tao of Slothness Explained, Coming soon!
             p.lead
             | From the more influentional Sloth in the whole world, how to be a successful sloth with the pro, coming soon.
@@ -43,7 +43,7 @@ block content
               p.card-text
                 small.text-muted Last updated 3 mins ago
           .card
-            img.card-img-top(src='/images/rolling.jpg' alt='Card image cap')
+            img.card-img-top(src='/images/jumbotron.jpg' alt='Card image cap')
             .card-body
               h5.card-title Tools to be successful
               p.card-text
@@ -53,6 +53,16 @@ block content
                 small.text-muted Last updated 3 mins ago
 
     .container.photo-field
+        .card
+          .card-header
+            | Playing non stop in my place
+          .card-body
+            h5.card-title
+            p.card-text 
+                iframe(width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/224789187&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true')
+            
+
+
         .card-deck
             .card.text-white.bg-danger.mb-3(style='max-width: 18rem;')
               .card-header Header
